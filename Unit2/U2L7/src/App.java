@@ -1,17 +1,12 @@
-public class App {
-
+public class Loop1 {
     public static void main(String[] args) {
 
-        int counter = 0;
-        int sum = 0;
+        int x = 1;
 
-        while(counter <= 100) {
-            sum += counter;
-            counter++;
-        }
-
+        do {
+            System.out.println(x);
+            x++;
+        } while (x < 101);
 
 
     }
-
-}

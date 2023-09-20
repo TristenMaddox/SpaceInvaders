@@ -12,7 +12,7 @@ public class Politictsapp {
             System.out.println("Congratulations you can run for congress or the senate");
         } else if (age < 25) {
             System.out.println("Congratulations.  You can run for Congress");
-        } else (age > 25) {
+        } else {
             System.out.println("Sorry you can not run for political office.");
         }
 
