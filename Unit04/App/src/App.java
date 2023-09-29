@@ -16,7 +16,7 @@ public class App {
 
         System.out.println(myString2.equals(myOtherString2));
 
-        if(obj1 == obj2){
+        if (obj1 == obj2) {
             System.out.println(myString2.equals(myOtherString2));
         }
     }
